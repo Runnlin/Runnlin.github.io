@@ -91,3 +91,5 @@ service-worker: true
 #        href: "http://www.jianshu.com/u/58b922d0702a"
 #    }
 #]
+
+theme: jekyll-theme-midnight
