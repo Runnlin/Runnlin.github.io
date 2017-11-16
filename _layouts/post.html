@@ -208,9 +208,9 @@ s.setAttribute('data-timestamp', +new Date());
 </article>
 
 
-<!-- {% if site.duoshuo_username %} -->
+{% if site.duoshuo_username %}
 <!-- 多说公共JS代码 start (一个网页只需插入一次) -->
-<!-- <script type="text/javascript">
+<script type="text/javascript">
     // dynamic User by Hux
     var _user = '{{site.duoshuo_username}}';
 
@@ -224,9 +224,9 @@ s.setAttribute('data-timestamp', +new Date());
         (document.getElementsByTagName('head')[0]
          || document.getElementsByTagName('body')[0]).appendChild(ds);
     })();
-</script> -->
+</script>
 <!-- 多说公共JS代码 end -->
-<!-- {% endif %} -->
+{% endif %}
 
 
 {% if site.disqus_username %}
