@@ -1,8 +1,8 @@
 {
     "name": "runnlin-blog",
-    "title": "Runnlin Blog",
-    "author": "Runnlin <z77072716565@gmail.com>",
-    "version": "1.0.0",
+    "title": "Runnlin's Blog",
+    "author": "Runnlin <Runnlin@foxmail.com>",
+    "version": "5.5.5",
     "homepage": "http://runnlin.github.io",
     "repository": {
         "type": "git",
